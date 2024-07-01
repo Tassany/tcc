@@ -2,8 +2,9 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-imput_images_folder = 'falso_luzNatural_dia/'
-output_images_folder = 'imagens_processadas/'+imput_images_folder
+imput_images_folder = './imagens/detected_faces/falsos/foto_tela_filtro/'
+output_images_folder = './imagens/simagens_processadas/'+imput_images_folder
+
 
 # Get the name of all images in the folder
 def get_filenames_from_folder(folder_path):
