@@ -45,9 +45,9 @@ def antispoofing_processing(image):
 
 if __name__ == "__main__":
     # Load image instead of using the camera
-    # image_path = "Imagens/detected_faces/grande_filtro/2024-06-09_12-38-54.png" # Real
+    image_path = "Imagens/detected_faces/grande_filtro/2024-06-09_12-38-54.png" # Real
     # image_path = "Imagens/detected_faces/falsos/falso_papel_com_filtro-IPHONE/2024-07-07_16-49-08.png" #Falso papel
-    image_path = "Imagens/detected_faces/falsos/foto_tela/2024-07-07_23-28-21.png" #Falso tela
+    # image_path = "Imagens/detected_faces/falsos/foto_tela/2024-07-07_23-28-21.png" #Falso tela
 
     image = cv2.imread(image_path)
 
